@@ -1,0 +1,51 @@
+.nav-bar {
+  font-size: 17px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px;
+}
+
+.brand-icon {
+  width: 25%;
+}
+.brand-icon > img {
+  margin-left: -100px;
+}
+.nav-items {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: hotpink; */
+}
+
+Form {
+  width: 65%;
+  margin-top: 17px;
+}
+
+.nav-buttons {
+  display: flex;
+  margin-right: 20px;
+}
+.login {
+  margin-right: 30px;
+  background-color: rgb(59, 58, 58);
+  color: rgb(0, 0, 131);
+}
+
+.lang-selection {
+  background-color: rgb(59, 58, 58);
+}
+
+.try-now {
+  background-color: blue;
+}
+
+.lang-selection,
+.try-now,
+.login {
+  padding: 5px 12px;
+  border-radius: 7px;
+}
